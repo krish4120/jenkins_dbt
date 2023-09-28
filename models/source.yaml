@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: pets
+    database: "PETS"
+    schema: "DBT_TESTING"
+    tables:
+      - name: super_store

@@ -1,0 +1,7 @@
+version: '3'
+services:
+  dbt:
+    image: dbt_image
+    volumes:
+      - ./your_dbt_project_directory:/app
+    command: ["dbt", "run"]
